@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_mnu_home"
+            android:title="@string/frag0" />
+        <item
+            android:id="@+id/fragmento1"
+            android:icon="@drawable/ic_mnu_calculador"
+            android:title="@string/frag1" />
+        <item
+            android:id="@+id/fragmento2"
+            android:icon="@drawable/ic_mnu_sonido"
+            android:title="@string/frag2" />
+        <item
+            android:id="@+id/fragmento3"
+            android:icon="@drawable/ic_mnu_web"
+            android:title="@string/frag3" />
+        <item
+            android:id="@+id/fragmento4"
+            android:icon="@drawable/ic_mnu_appnueva"
+            android:title="@string/frag4" />
+        <item
+            android:id="@+id/fragmento5"
+            android:icon="@drawable/ic_mnu_datos"
+            android:title="@string/frag5" />
+    </group>
+</menu>

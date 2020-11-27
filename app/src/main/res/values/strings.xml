@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Navegacion</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Textos Julian -->
+    <string name="inst1">Instante 01</string>
+    <string name="inst2">Instante 02</string>
+    <string name="frag0">Inicio</string>
+    <string name="frag1">Calculadora</string>
+    <string name="frag2">Sonidos</string>
+    <string name="frag3">Sitio Web</string>
+    <string name="frag4">Aplicacion</string>
+    <string name="frag5">Datos</string>
+    <string name="selec">Selecciona en el Menu</string>
+    <string name="ju">Irvin Julian</string>
+    <string name="co">Cobos Vargas</string>
+    <string name="sis">Ingenieria de Sistemas</string>
+    <string name="tu">Tunqui Hanco</string>
+
+</resources>

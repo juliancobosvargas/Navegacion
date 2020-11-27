@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:theme="@style/TemaJulian"
+    android:background="@drawable/fondo10"
+    tools:context=".Fragmento5">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:gravity="right"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/frag5" />
+
+        <EditText
+            android:id="@+id/txtNom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/ju" />
+
+        <EditText
+            android:id="@+id/txtApe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/co" />
+
+        <EditText
+            android:id="@+id/txtIng"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="@string/sis" />
+
+        <Button
+            android:id="@+id/btnModifica"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#C60000"
+            android:layout_marginTop="20dp"
+            android:padding="20dp"
+            android:text="Modifica" />
+    </LinearLayout>
+
+</FrameLayout>

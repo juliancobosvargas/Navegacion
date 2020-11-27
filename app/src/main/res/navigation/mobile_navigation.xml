@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.navegacion.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.navegacion.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.example.navegacion.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/fragmento1"
+        android:name="com.example.navegacion.Fragmento1"
+        android:label="@string/frag1"
+        tools:layout="@layout/fragment_fragmento1" />
+    <fragment
+        android:id="@+id/fragmento2"
+        android:name="com.example.navegacion.Fragmento2"
+        android:label="@string/frag2"
+        tools:layout="@layout/fragment_fragmento2" />
+    <fragment
+        android:id="@+id/fragmento3"
+        android:name="com.example.navegacion.Fragmento3"
+        android:label="@string/frag3"
+        tools:layout="@layout/fragment_fragmento3" />
+    <fragment
+        android:id="@+id/fragmento4"
+        android:name="com.example.navegacion.Fragmento4"
+        android:label="@string/frag4"
+        tools:layout="@layout/fragment_fragmento4" />
+    <fragment
+        android:id="@+id/fragmento5"
+        android:name="com.example.navegacion.Fragmento5"
+        android:label="@string/frag5"
+        tools:layout="@layout/fragment_fragmento5" />
+</navigation>
